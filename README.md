@@ -2,6 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 
+## Getting Started
+
+Angular CLI: 10.1.7
+Node: 12.19.0
+OS: linux x64
+
+Run:
+`git clone https://gitlab.com/NicolasMoliternO/com222-trabalho-final.git com222trab`
+`cd com222trab`
+`npm i`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
