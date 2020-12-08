@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="column">
+    <h2>Já tenho conta</h2>
+    
+
+    <input
+      (keyup)="getEmail($event)"
+      type="email"
+      placeholder="email@email.com"
+      autocomplete="email"
+    />
+    <input
+      (keyup)="getPassword($event)"
+      type="password"
+      placeholder="Digite sua senha"
+    />
+    <button (click)="loginUser()">Entrar</button>
+  </div>
+  <div class="division"></div>
+  <div class="column">
+    <h2>Criar uma conta</h2>
+    
+    <input
+      (keyup)="getUserName($event)"
+      type="text"
+      placeholder="Digite um nome de usuário"
+    />
+    <input
+      type="email"
+      (keyup)="getEmail($event)"
+      placeholder="Digite seu melhor email"
+    />
+    <input
+      type="password"
+      (keyup)="getPassword($event)"
+      placeholder="Digite uma boa senha"
+    />
+    <button (click)="createUser()">Criar a conta</button>
+  </div>
+</div>
