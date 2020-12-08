@@ -9,8 +9,8 @@ Node: 12.19.0
 OS: linux x64
 
 Run:
-`git clone https://gitlab.com/NicolasMoliternO/com222-trabalho-final.git com222trab`
-`cd com222trab`
+`git clone https://gitlab.com/NicolasMoliternO/com222-trabalho-final.git com222trab` to pull project
+`cd com222trab` entry folder project
 `npm i`
 
 ## Development server
